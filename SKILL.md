@@ -1,9 +1,57 @@
+---
+name: hermes-security-audit
+description: Security audit for Linux servers running Hermes Agent
+triggers:
+  - "проверь безопасность"
+  - "security audit"
+  - "просканируй сервер"
+  - "check for malware"
+  - "найди уязвимости"
+  - "antivirus scan"
+  - "проверить hermes на вирусы"
+  - "аудит безопасности"
+---
+
 # 🔒 Hermes Agent Security Audit — AI Agent Antivirus & Vulnerability Scanner
 
 <p align="center">
   <b>12 detection methods. 5 minutes to run. Open source.</b><br>
   Check your Hermes agent for malware, rootkits, crypto miners, and SSH brute force attacks.
 </p>
+
+---
+
+## Installation — How to Add This Skill to Hermes Agent
+
+### Option 1: Git clone (auto-discovery)
+
+```bash
+cd ~/.hermes/profiles/YOUR_PROFILE/skills/
+git clone https://github.com/axelfreeman/hermes-security-audit.git infrastructure/hermes-security-audit
+```
+
+Hermes Agent scans `~/.hermes/profiles/<profile>/skills/` at startup. Each subdirectory with a `SKILL.md` is automatically discovered. No manual import needed.
+
+### Option 2: Copy SKILL.md manually
+
+```bash
+mkdir -p ~/.hermes/profiles/YOUR_PROFILE/skills/infrastructure/hermes-security-audit
+cp SKILL.md ~/.hermes/profiles/YOUR_PROFILE/skills/infrastructure/hermes-security-audit/SKILL.md
+```
+
+### How Hermes Finds This Skill
+
+1. At startup, Hermes scans `~/.hermes/profiles/*/skills/` recursively
+2. Every subdirectory with a `SKILL.md` becomes an available skill
+3. The YAML frontmatter (`triggers:`) tells Hermes when to auto-load it
+4. Say **"проверь безопасность сервера"**, **"security audit"**, or **"просканируй на вирусы"** — Hermes loads this skill automatically
+
+### Try it now
+
+After installation, ask your Hermes Agent:
+- `проверь безопасность сервера`
+- `run antivirus scan`
+- `найди уязвимости`
 
 ---
 
@@ -29,21 +77,6 @@ Hermes Agent runs on Linux servers with root access, Docker containers, API keys
 | 📅 **Hidden cron jobs** | Cron audit — all users, all schedules |
 | 📁 **SUID/SGID exploits** | Privilege escalation vector detection |
 | 🌐 **Outbound connections** | Network connection audit — who's calling home |
-
-## Quick Start
-
-```bash
-# 1. Install Hermes Agent (if not already)
-# https://github.com/nous-research/hermes-agent
-
-# 2. Load the security skill
-hermes skill load hermes-security-audit
-
-# 3. Run the audit
-# Say to your Hermes agent: "проверь безопасность сервера"
-```
-
-Or just copy the [SKILL.md](SKILL.md) into `~/.hermes/profiles/your_profile/skills/`.
 
 ## 12 Security Checks — Full Breakdown
 
@@ -113,21 +146,6 @@ After audit + fixes:
 - ✅ When you notice unusual CPU/memory usage
 - ✅ Before exposing your agent to external platforms (Telegram, Discord)
 
-## Who Is This For?
-
-- **Hermes Agent users** running self-hosted instances
-- **AI agent developers** who want to secure their infrastructure
-- **Linux server admins** — works on any Linux server, not just Hermes
-- **Security-conscious teams** building on open-source AI tools
-
 ## Related Searches (SEO)
 
-People find this skill by searching:
-
-`hermes agent security audit` · `ai agent antivirus` · `check hermes agent malware` · `ai assistant vulnerability scanner` · `hermes agent safety check` · `linux server security audit` · `how to check hermes agent for malware` · `is hermes agent safe to use` · `hermes agent vulnerability scanner` · `ai agent malware detection` · `hermes agent rootkit scan` · `open source ai agent security` · `how to secure hermes agent server` · `detect crypto miners on ai server`
-
-На русском: `проверка hermes agent на вирусы` · `аудит безопасности hermes агента` · `антивирус для ai агента` · `проверка безопасности hermes` · `защита hermes агента от взлома` · `сканер уязвимостей hermes agent` · `безопасность ai ассистента` · `как проверить hermes на вирусы`
-
-## License
-
-MIT — use, modify, share freely. Part of [Axel Freeman's](https://github.com/axelfreeman) open-source marketing and security toolkit.
+`hermes agent security audit` · `ai agent antivirus` · `check hermes agent malware` · `ai assistant vulnerability scanner` · `hermes agent safety check` · `linux server security audit` · `как проверить hermes на вирусы` · `аудит безопасности hermes` · `антивирус для ai агента`
