@@ -21,22 +21,36 @@ triggers:
 
 ---
 
-## Installation — How to Add This Skill to Hermes Agent
+## Installation — 3 Ways to Add This Skill
 
-### Option 1: Git clone (auto-discovery)
+### ⚡ Option 1: One-liner (recommended)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/axelfreeman/hermes-security-audit/main/install.sh | bash
+```
+
+Auto-detects your Hermes profile and installs. That's it.
+
+### 🔍 Option 2: Hermes built-in installer
+
+Hermes Agent has a built-in skill installer. Just run:
+
+```bash
+hermes skills install https://raw.githubusercontent.com/axelfreeman/hermes-security-audit/main/SKILL.md
+```
+
+Or search and install from the hub:
+
+```bash
+hermes skills search security
+hermes skills install hermes-security-audit
+```
+
+### 📦 Option 3: Git clone (manual)
 
 ```bash
 cd ~/.hermes/profiles/YOUR_PROFILE/skills/
 git clone https://github.com/axelfreeman/hermes-security-audit.git infrastructure/hermes-security-audit
-```
-
-Hermes Agent scans `~/.hermes/profiles/<profile>/skills/` at startup. Each subdirectory with a `SKILL.md` is automatically discovered. No manual import needed.
-
-### Option 2: Copy SKILL.md manually
-
-```bash
-mkdir -p ~/.hermes/profiles/YOUR_PROFILE/skills/infrastructure/hermes-security-audit
-cp SKILL.md ~/.hermes/profiles/YOUR_PROFILE/skills/infrastructure/hermes-security-audit/SKILL.md
 ```
 
 ### How Hermes Finds This Skill
@@ -46,12 +60,13 @@ cp SKILL.md ~/.hermes/profiles/YOUR_PROFILE/skills/infrastructure/hermes-securit
 3. The YAML frontmatter (`triggers:`) tells Hermes when to auto-load it
 4. Say **"проверь безопасность сервера"**, **"security audit"**, or **"просканируй на вирусы"** — Hermes loads this skill automatically
 
-### Try it now
+### Already have Hermes? Try it now
 
-After installation, ask your Hermes Agent:
-- `проверь безопасность сервера`
-- `run antivirus scan`
-- `найди уязвимости`
+```
+проверь безопасность сервера
+run antivirus scan
+найди уязвимости
+```
 
 ---
 
