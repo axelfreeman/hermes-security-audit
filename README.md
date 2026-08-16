@@ -131,3 +131,6 @@ People find this skill by searching:
 ## License
 
 MIT — use, modify, share freely. Part of [Axel Freeman's](https://github.com/axelfreeman) open-source marketing and security toolkit.
+---
+
+*Last updated: August 2026.*
