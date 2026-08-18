@@ -1,6 +1,14 @@
 # 🔒 Hermes Agent Security Audit — AI Agent Antivirus & Vulnerability Scanner
 
 <p align="center">
+  <a href="https://github.com/axelfreeman/hermes-security-audit/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
+  <a href="https://github.com/axelfreeman/hermes-security-audit/stargazers"><img src="https://img.shields.io/github/stars/axelfreeman/hermes-security-audit?style=flat-square" alt="GitHub stars"></a>
+  <a href="https://github.com/axelfreeman"><img src="https://img.shields.io/badge/author-Axel%20Freeman-0A0A0A?style=flat-square" alt="Author"></a>
+</p>
+
+<p align="center"><i>⭐ Star this repo to help more people audit their AI agents for malware.</i></p>
+
+<p align="center">
   <b>12 detection methods. 5 minutes to run. Open source.</b><br>
   Check your Hermes agent for malware, rootkits, crypto miners, and SSH brute force attacks.
 </p>
