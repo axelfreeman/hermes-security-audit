@@ -1,27 +1,20 @@
 ---
 name: hermes-security-audit
-description: Free security audit for Linux servers — no API keys, no paid tools. Scans for viruses (ClamAV), rootkits (rkhunter + chkrootkit), SSH brute force, crypto miners, exposed credentials, and open ports. 12 detection methods, proven on production (11,000+ attacks found and blocked). Use when the user asks to audit or harden a Linux server, check for malware/rootkits/crypto miners, scan open ports, or detect SSH brute force — "security audit", "просканируй сервер", "check for malware".
+description: Free security audit for Linux servers — no API keys, no paid tools. Scans for viruses (ClamAV), rootkits (rkhunter + chkrootkit), SSH brute force, crypto miners, exposed credentials, and open ports. 12 detection methods, proven on production (11,000+ attacks found and blocked). Use when the user asks to audit or harden a Linux server, check for malware/rootkits/crypto miners, scan open ports, or detect SSH brute force — "security audit", "check for malware".
 version: 1.0.0
 author: Axel Freeman
 license: MIT
 homepage: https://github.com/axelfreeman/hermes-security-audit
 triggers:
-  - "проверь безопасность"
   - "security audit"
-  - "просканируй сервер"
   - "check for malware"
-  - "найди уязвимости"
   - "antivirus scan"
-  - "проверить hermes на вирусы"
-  - "аудит безопасности"
   - "scan server security"
   - "run security check"
   - "is my server safe"
   - "check for rootkits"
   - "find backdoors"
   - "server hardening"
-  - "просканируй на руткиты"
-  - "как проверить сервер на взлом"
   - "check if server is hacked"
   - "clamav scan"
   - "rkhunter check"

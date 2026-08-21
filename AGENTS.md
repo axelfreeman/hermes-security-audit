@@ -6,7 +6,7 @@ A **free, open-source security audit skill** for Hermes Agent. Runs 12 detection
 
 **No API keys. No paid tools. No Docker required.** Runs entirely on standard Linux packages.
 
-The skill is a single `SKILL.md` file that Hermes Agent loads as a skill. When triggered by keywords like "security audit" or "проверь безопасность", the agent follows the methodology encoded in the skill to run the 12 checks, interpret results, and apply fixes.
+The skill is a single `SKILL.md` file that Hermes Agent loads as a skill. When triggered by keywords like "security audit", the agent follows the methodology encoded in the skill to run the 12 checks, interpret results, and apply fixes.
 
 ## Architecture
 
@@ -193,7 +193,6 @@ SEMANTICS.md tracks keyword strategy. The README.md is optimized for:
 - `hermes agent security audit`
 - `ai agent antivirus`
 - `check hermes agent malware`
-- Russian equivalents: `проверка hermes agent на вирусы`
 
 When adding content, preserve keyword density in H1, first paragraph, and table headers.
 

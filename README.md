@@ -50,7 +50,7 @@ Hermes Agent runs on Linux servers with root access, Docker containers, API keys
 hermes skill load hermes-security-audit
 
 # 3. Run the audit
-# Say to your Hermes agent: "проверь безопасность сервера"
+# Say to your Hermes agent: "run a security audit on my server"
 ```
 
 Or just copy the [SKILL.md](SKILL.md) into `~/.hermes/profiles/your_profile/skills/`.
@@ -136,7 +136,6 @@ People find this skill by searching:
 
 `hermes agent security audit` · `ai agent antivirus` · `check hermes agent malware` · `ai assistant vulnerability scanner` · `hermes agent safety check` · `linux server security audit` · `how to check hermes agent for malware` · `is hermes agent safe to use` · `hermes agent vulnerability scanner` · `ai agent malware detection` · `hermes agent rootkit scan` · `open source ai agent security` · `how to secure hermes agent server` · `detect crypto miners on ai server`
 
-На русском: `проверка hermes agent на вирусы` · `аудит безопасности hermes агента` · `антивирус для ai агента` · `проверка безопасности hermes` · `защита hermes агента от взлома` · `сканер уязвимостей hermes agent` · `безопасность ai ассистента` · `как проверить hermes на вирусы`
 
 ## License
 
