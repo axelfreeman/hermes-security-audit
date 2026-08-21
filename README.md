@@ -1,5 +1,7 @@
 # 🔒 Hermes Agent Security Audit — AI Agent Antivirus & Vulnerability Scanner
 
+[![skills.sh](https://skills.sh/b/axelfreeman/hermes-security-audit)](https://skills.sh/axelfreeman/hermes-security-audit)
+
 <p align="center">
   <a href="https://github.com/axelfreeman/hermes-security-audit/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
   <a href="https://github.com/axelfreeman/hermes-security-audit/stargazers"><img src="https://img.shields.io/github/stars/axelfreeman/hermes-security-audit?style=flat-square" alt="GitHub stars"></a>
