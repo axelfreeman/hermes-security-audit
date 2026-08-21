@@ -14,7 +14,6 @@ The skill is a single `SKILL.md` file that Hermes Agent loads as a skill. When t
 hermes-security-audit/
 ├── SKILL.md          # Core skill file — loaded by Hermes Agent
 ├── README.md         # English docs (SEO-optimized)
-├── README_RU.md      # Russian docs
 ├── SEMANTICS.md      # Keyword research + content plan
 ├── install.sh        # One-liner installer via curl
 └── AGENTS.md         # This file — agent instructions
@@ -203,7 +202,7 @@ When adding content, preserve keyword density in H1, first paragraph, and table 
 - **Safety:** Never run destructive commands without user confirmation. The agent handles this via Hermes's approval system.
 - **Secrets:** Never log or store credentials. The skill only reads — never writes — sensitive files.
 - **Versioning:** Follow semver in SKILL.md frontmatter. Bump patch for fixes, minor for new methods, major for breaking trigger changes.
-- **Bilingual:** All user-facing docs exist in EN and RU. Russian is primary (author is Russian-speaking).
+- **English-only:** All user-facing docs are in English.
 
 ## Testing
 
