@@ -1,0 +1,3 @@
+# Hermes Security Audit
+
+Free Linux server security audit — 12 detection methods. Scans for viruses (ClamAV), rootkits, SSH brute force, crypto miners, and exposed credentials. No API keys, no paid tools.
