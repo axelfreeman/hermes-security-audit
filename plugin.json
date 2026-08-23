@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schema.json",
+  "name": "hermes-security-audit",
+  "version": "1.0.0",
+  "description": "Free Linux server security audit — 12 detection methods for viruses, rootkits, SSH brute force, crypto miners, and exposed credentials. No API keys, no paid tools.",
+  "author": "Axel Freeman",
+  "license": "MIT",
+  "homepage": "https://github.com/axelfreeman/hermes-security-audit",
+  "repository": "https://github.com/axelfreeman/hermes-security-audit",
+  "skills": [
+    {
+      "name": "hermes-security-audit",
+      "description": "Free Linux server security audit — 12 detection methods for viruses, rootkits, SSH brute force, crypto miners, and exposed credentials. No API keys, no paid tools."
+    }
+  ],
+  "mcpServers": []
+}
