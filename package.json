@@ -1,0 +1,24 @@
+{
+  "name": "dsh-hermes-security-audit",
+  "version": "1.0.0",
+  "description": "Free security audit for Linux servers — no API keys, no paid tools. Scans for viruses (ClamAV), rootkits (rkhunter + chkrootkit), SSH brute force, crypto miners, exposed credentials, and open ports. 1",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "SKILL.md"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-skill"
+  ],
+  "license": "MIT",
+  "author": "Axel Freeman (axelfreeman)",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
